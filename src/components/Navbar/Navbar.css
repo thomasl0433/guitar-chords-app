@@ -12,6 +12,8 @@
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
+    /* Prevents new-line */
+    white-space: nowrap;
 }
 
 .fa-react {
@@ -52,6 +54,10 @@
 
 .menu-icon {
     display: none;
+}
+
+Button {
+    margin-right: 20px;
 }
 
 @media screen and (max-width: 960px) {
